@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Festival des Films de Plein Air - Actualités</title>
+    <link href="css/main-style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <header class="flex">
+        <a href="index.html" class="site-logo">
+            <img src="images/site-logo.png" alt="Films de Plein Air">
+        </a>
+        <nav id="main-nav">
+            <div class="menu-container">
+                <input class="menu-input" type="checkbox" />
+                <img class="menu-bars" src="images/bars.svg" alt="Menu principal" width="30">
+                <p id="menu-status" class="hide">Menu</p>
+                <ul id="main-menu" class="flex">
+                    <!--MENU DESKTOP-->
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="festival.html">Le Festival</a></li>
+                    <li><a href="index.html#movies">Séances</a></li>
+                    <li><a href="actualites.html" class="selected">Actualités</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="news" class="flex flex-center-x">
+        <div class="news-container flex flex-column flex-center-y">
+            <h1>Actualités du Festival</h1>
+            <div class="news-post-wrapper">
+                <article class="news-post">
+                    <span class="news-post-category">Cinéma</span>
+                    <span class="news-post-date">mercredi 1er janvier 2020</span>
+                    <h2 class="news-post-title"><a href="article_1.html">Le cinéma d'auteur dans tous ses états</a></h2>
+                    <hr>
+                    <figure class="news-post-image"><img src="images/articles/article_1.jpg" alt="Le cinéma d'auteur dans tous ses états"></figure>
+                    <div class="news-post-text">
+                        <p>Croissant bonbon macaroon powder cake. Toffee icing liquorice tootsie roll lollipop liquorice cheesecake caramels. Bonbon carrot cake danish jelly halvah topping croissant carrot cake ice cream. Topping dragée wafer lollipop jelly-o
+                            jelly liquorice sugar plum. Pudding ice cream cake candy canes chupa chups chupa chups candy chocolate. Tootsie roll marzipan pastry pie dragée sweet roll gummi bears jujubes candy. Apple pie halvah chupa chups pudding chocolate
+                            bar sweet roll pie bonbon. Cupcake cake cheesecake cake...</p>
+                    </div>
+                </article>
+                <article class="news-post">
+                    <span class="news-post-category">Festival</span>
+                    <span class="news-post-date">mercredi 1er janvier 2020</span>
+                    <h2 class="news-post-title"><a href="article_2.html">On parle de nous !</a></h2>
+                    <hr>
+                    <figure class="news-post-image"><img src="images/articles/article_2.jpg" alt="On parle de nous !">
+                    </figure>
+                    <p class="news-post-text">Lorem ipsum dolor amet austin marfa tumblr, pinterest scenester biodiesel franzen echo park iceland thundercats intelligentsia portland. Distillery actually tattooed DIY forage paleo kombucha hella keytar taiyaki. Biodiesel whatever
+                        banh mi enamel pin poutine craft beer, sartorial truffaut flannel viral authentic hexagon kickstarter photo booth food truck. Waistcoat gentrify kombucha flexitarian glossier DIY viral before they sold out...</p>
+                </article>
+                <article class="news-post">
+                    <span class="news-post-category">Festival</span>
+                    <span class="news-post-date">mercredi 1er janvier 2020</span>
+                    <h2 class="news-post-title"><a href="article_3.html">La programmation du Festival</a></h2>
+                    <hr>
+                    <figure class="news-post-image"><img src="images/articles/article_3.jpg" alt="La programmation du Festival"></figure>
+                    <p class="news-post-text">Lorem ipsum dolor amet austin marfa tumblr, pinterest scenester biodiesel franzen echo park iceland thundercats intelligentsia portland. Distillery actually tattooed DIY forage paleo kombucha hella keytar taiyaki. Biodiesel whatever
+                        banh mi enamel pin poutine craft beer, sartorial truffaut flannel viral authentic hexagon kickstarter photo booth food truck. Waistcoat gentrify kombucha flexitarian glossier DIY viral before they sold out...</p>
+                </article>
+            </div>
+        </div>
+        <aside class="news-sidebar flex flex-column">
+            <div class="newsletter-container mx-50">
+                <h3>Newsletter</h3>
+                <hr>
+                <p>Ne ratez aucune actualité du Festival en vous inscrivant à notre newsletter !</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Votre email">
+                    <input type="submit" value="OK">
+                </form>
+            </div>
+            <div class="news-movies-list flex flex-column flex-center-y mx-50">
+                <h3>Prochaines séances</h3>
+                <hr>
+                <div class="news-movies-list-item">
+                    <figure>
+                        <img src="images/films/mini_film_2001.jpg" alt="2001 - L'Odysée de l'espace">
+                        <figcaption>5 août 2020 - 18h00</figcaption>
+                    </figure>
+                </div>
+                <div class="news-movies-list-item">
+                    <figure>
+                        <img src="images/films/mini_film_drive.jpg" alt="Drive">
+                        <figcaption>5 août 2020 - 21h00</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </aside>
+    </section>
+
+    <footer class="flex">
+        <div class="footer-col footer-col-1">
+            <h3><a href="index.html">Festival des Films de Plein Air</a></h3>
+            <p>Du 5 au 8 août 2020</p><br />
+            <p style="font-weight:bold">Parc Monceau</p>
+            <p>35 Boulevard de Courcelles<br />75008 Paris</p>
+        </div>
+        <div class="footer-col footer-col-2">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Le Festival</a></li>
+                <li><a href="#">Les films</a></li>
+                <li><a href="#">Actualités</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Mentions légales</a></li>
+            </ul>
+        </div>
+        <div class="footer-col footer-col-3">
+            <p class="mx-10 text-center">SUIVEZ-NOUS</p>
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

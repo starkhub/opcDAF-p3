@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Festival des Films de Plein Air - Contact</title>
+    <link href="css/main-style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <header class="flex">
+        <a href="index.html" class="site-logo">
+            <img src="images/site-logo.png" alt="Films de Plein Air">
+        </a>
+        <nav id="main-nav">
+            <div class="menu-container">
+                <input class="menu-input" type="checkbox" />
+                <img class="menu-bars" src="images/bars.svg" alt="Menu principal" width="30">
+                <p id="menu-status" class="hide">Menu</p>
+                <ul id="main-menu" class="flex">
+                    <!--MENU DESKTOP-->
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="festival.html">Le Festival</a></li>
+                    <li><a href="index.html#movies">Séances</a></li>
+                    <li><a href="actualites.html">Actualités</a></li>
+                    <li><a href="contact.html" class="selected">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact" class="flex flex-center">
+        <div class="contact-card">
+            <h1 class="text-center mx-10">Formulaire de contact</h1>
+            <p class="mx-50">Pour toute question sur le Festival des Films de Plein Air n'hésitez pas à nous contacter via ce formulaire de contact, nous ferons de notre mieux pour vous apporter une réponse le plus rapidement possible.</p>
+            <form class="contact-form">
+                <label>Nom :<span>*</span></label><input type="text">
+                <label>Email :<span>*</span></label><input type="email">
+                <label>Message :<span>*</span></label><textarea></textarea>
+                <p><i>Aucune donnée personnelle n’est conservée par notre site via ce formulaire</i></p>
+                <input class="contact-submit-button" type="submit" value="Envoyer">
+            </form>
+        </div>
+    </section>
+
+    <section id="found-us" class="flex flex-center flex-column">
+        <h2 class="section-title text-center">NOUS TROUVER</h2>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.873553136659!2d2.3067663158540586!3d48.879687007160626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1578845313035!5m2!1sfr!2sfr"
+            style="border:0;" allowfullscreen=""></iframe>
+
+        <div id="found-us-access" class="flex mx-50">
+            <div>
+                <img src="images/mini_metro.png" alt="Accès métro">
+                <h4>Accès Métro</h4>
+                <p>Monceau, ligne 2</p>
+            </div>
+            <div>
+                <img src="images/mini_vlib.png" alt="Accès métro">
+                <h4>Accès Vélib</h4>
+                <ul>
+                    <li>Station 17018, 4 rue de thann</li>
+                    <li>Station 8036, 39 rue de lisbonne</li>
+                    <li>Station 8044, 2 rue alfred de vigny</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="flex">
+        <div class="footer-col footer-col-1">
+            <h3><a href="index.html">Festival des Films de Plein Air</a></h3>
+            <p>Du 5 au 8 août 2020</p><br />
+            <p style="font-weight:bold">Parc Monceau</p>
+            <p>35 Boulevard de Courcelles<br />75008 Paris</p>
+        </div>
+        <div class="footer-col footer-col-2">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Le Festival</a></li>
+                <li><a href="#">Les films</a></li>
+                <li><a href="#">Actualités</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Mentions légales</a></li>
+            </ul>
+        </div>
+        <div class="footer-col footer-col-3">
+            <p class="mx-10 text-center">SUIVEZ-NOUS</p>
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

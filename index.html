@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Festival des Films de Plein Air</title>
+    <link href="css/main-style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <header class="flex">
+        <a href="index.html" class="site-logo">
+            <img src="images/site-logo.png" alt="Films de Plein Air">
+        </a>
+        <nav id="main-nav">
+            <div class="menu-container">
+                <input class="menu-input" type="checkbox" />
+                <img class="menu-bars" src="images/bars.svg" alt="Menu principal" width="30">
+                <p id="menu-status" class="hide">Menu</p>
+                <ul id="main-menu" class="flex">
+                    <li><a href="index.html" class="selected">Accueil</a></li>
+                    <li><a href="festival.html">Le Festival</a></li>
+                    <li><a href="#movies">Séances</a></li>
+                    <li><a href="actualites.html">Actualités</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="intro" class="flex flex-center flex-column text-white">
+        <div class="intro-cta-card flex flex-center flex-column">
+            <h1 class="intro-title">FESTIVAL DES FILMS DE PLEIN AIR</h1>
+            <p id="intro-subtitle">DU 5 AU 8 AOÛT IL Y A DU CINÉMA DANS L'AIR !</p>
+            <p class="intro-text mx-50">L'association des Films De Plein Air vous propose des projections de films d'auteur du 5 au 8 août de 18h00 à minuit au sein du parc Monceau à Paris. Venez découvrir ou re-découvrir des chefs-d’œuvre du cinéma, en plein air et gratuitement
+                !
+            </p>
+            <a href="festival.html" class="cta-button text-white mx-50">EN SAVOIR PLUS</a>
+        </div>
+    </section>
+
+    <section id="movies" class="flex">
+        <div class="section-title text-center text-white">
+            <h2>LES SÉANCES</h2>
+            <p class="mx-10"><i>L'accès aux projections est gratuit et ouvert à tous. Vous pouvez cependant réserver vos
+                    places pour nous aider dans l'organisation des séances.</i></p>
+        </div>
+        <a href="#film1" class="movie-card"><img src="images/films/mini_film_2001.jpg" alt="2001 - L'Odysée de l'espace">
+            <div class="movie-button"></div>
+            <div class="movie-hours">
+                <h3>2001 - L'Odysée de l'espace</h3>
+                <p>5 août 2020 - 18h00</p>
+            </div>
+        </a>
+        <a href="#film2" class="movie-card"><img src="images/films/mini_film_drive.jpg" alt="Drive">
+            <div class="movie-hours">
+                <h3>Drive</h3>
+                <p>5 août 2020 - 21h00</p>
+            </div>
+        </a>
+        <a href="#film3" class="movie-card"><img src="images/films/mini_film_sherlockjr.jpg" alt="Sherlock Junior">
+            <div class="movie-hours">
+                <h3>Sherlock Junior</h3>
+                <p>5 août 2020 - 23h00</p>
+            </div>
+        </a>
+        <a href="#film4" class="movie-card"><img src="images/films/mini_film_joker.jpg" alt="Joker">
+            <div class="movie-hours">
+                <h3>Joker</h3>
+                <p>6 août 2020 - 18h00</p>
+            </div>
+        </a>
+        <a href="#film5" class="movie-card"><img src="images/films/mini_film_dogville.jpg" alt="Dogville">
+            <div class="movie-hours">
+                <h3>Dogville</h3>
+                <p>6 août 2020 - 20h30</p>
+            </div>
+        </a>
+        <a href="#film6" class="movie-card"><img src="images/films/mini_film_niddecoucou.jpg" alt="Vol au-dessus d'un nid d'un coucou">
+            <div class="movie-hours">
+                <h3>Vol au-dessus d'un nid d'un coucou</h3>
+                <p>7 août 2020 - 18h00</p>
+            </div>
+        </a>
+        <a href="#film7" class="movie-card"><img src="images/films/mini_film_delicatessen.jpg" alt="Delicatessen">
+            <div class="movie-hours">
+                <h3>Delicatessen</h3>
+                <p>7 août 2020 - 20h30</p>
+            </div>
+        </a>
+        <a href="#film8" class="movie-card"><img src="images/films/mini_film_lahaine.jpg" alt="La Haine">
+            <div class="movie-hours">
+                <h3>La Haine</h3>
+                <p>7 août 2020 - 22h30</p>
+            </div>
+        </a>
+        <a href="#film9" class="movie-card"><img src="images/films/mini_film_lavieestbelle.jpg" alt="La vie est belle">
+            <div class="movie-hours">
+                <h3>La vie est belle</h3>
+                <p>8 août 2020 - 18h00</p>
+            </div>
+        </a>
+        <a href="#film10" class="movie-card"><img src="images/films/mini_film_brazil.jpg" alt="Brazil">
+            <div class="movie-hours">
+                <h3>Brazil</h3>
+                <p>8 août 2020 - 20h30</p>
+            </div>
+        </a>
+        <a href="#film11" class="movie-card"><img src="images/films/mini_film_following.jpg" alt="Following">
+            <div class="movie-hours">
+                <h3>Following</h3>
+                <p>8 août 2020 - 23h00</p>
+            </div>
+        </a>
+    </section>
+
+    <section id="found-us" class="flex flex-center flex-column">
+        <h2 class="section-title text-center">NOUS TROUVER</h2>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.873553136659!2d2.3067663158540586!3d48.879687007160626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1578845313035!5m2!1sfr!2sfr"
+            style="border:0;" allowfullscreen=""></iframe>
+
+        <div id="found-us-access" class="flex mx-50">
+            <div>
+                <img src="images/mini_metro.png" alt="Accès métro">
+                <h4>Accès Métro</h4>
+                <p>Monceau, ligne 2</p>
+            </div>
+            <div>
+                <img src="images/mini_vlib.png" alt="Accès métro">
+                <h4>Accès Vélib</h4>
+                <ul>
+                    <li>Station 17018, 4 rue de thann</li>
+                    <li>Station 8036, 39 rue de lisbonne</li>
+                    <li>Station 8044, 2 rue alfred de vigny</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <a title="Logiciel billetterie en ligne" href="https://weezevent.com/?c=sys_widget" class="weezevent-widget-integration" target="_blank" data-src="https://www.weezevent.com/widget_billeterie.php?id_evenement=572915&lg_billetterie=1&code=48544&width_auto=1&color_primary=00AEEF"
+        data-width="650" data-height="600" data-id="572915" data-resize="1" data-width_auto="1" data-noscroll="0" data-nopb="0">Billetterie Weezevent</a>
+    <script type="text/javascript" src="https://www.weezevent.com/js/widget/min/widget.min.js"></script>
+    <footer class="flex">
+        <div class="footer-col footer-col-1">
+            <h3><a href="index.html">Festival des Films de Plein Air</a></h3>
+            <p>Du 5 au 8 août 2020</p>
+            <p style="font-weight:bold">Parc Monceau</p>
+            <p>35 Boulevard de Courcelles<br />75008 Paris</p>
+        </div>
+        <div class="footer-col footer-col-2">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Le Festival</a></li>
+                <li><a href="#">Les films</a></li>
+                <li><a href="#">Actualités</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Mentions légales</a></li>
+            </ul>
+        </div>
+        <div class="footer-col footer-col-3">
+            <p class="mx-10 text-center">SUIVEZ-NOUS</p>
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+    <!--POP-UP "MODALES" / FICHES DES FILMS-->
+
+    <article class="film-modal mfp-hide" id="film1">
+        <a class="close-icon" href="#close"></a>
+        <h1 class="text-center">2001 - L'Odysée de l'espace</h1>
+        <h2 class="text-center"><i>Séance : Le 5 août 2020 - 18h00</i></h2>
+        <div class="film-modal-details">
+            <img src="images/films/mini_film_2001.jpg" alt="2001 - L'Odysée de l'espace">
+            <div class="film-modal-subdetails">
+                <ul>
+                    <li>Date de sortie : <span>27 septembre 1968</span></li>
+                    <li>Durée : <span>2h21m</span></li>
+                    <li>De : <span>Stanley Kubrick</span></li>
+                    <li>Avec : <span>Keir Dullea, Gary Lockwood, William Sylvester, ...</span></li>
+                    <li>Genre : <span>Science fiction</span></li>
+                    <li class="mx-50">
+                        <p><i>L'accès aux projections est gratuit et ouvert à tous. Vous pouvez cependant réserver vos
+                                places pour nous aider dans l'organisation des séances.</i></p>
+                    </li>
+                </ul>
+                <a href="#" class="film-modal-resa">RÉSERVER MA PLACE</a>
+
+            </div>
+        </div>
+        <div class="film-modal-synopsis">
+            <h3>Synopsis</h3>
+            <p>A l'aube de l'Humanité, dans le désert africain, une tribu de primates subit les assauts répétés d'une bande rivale, qui lui dispute un point d'eau. La découverte d'un monolithe noir inspire au chef des singes assiégés un geste inédit et décisif.
+                Brandissant un os, il passe à l'attaque et massacre ses adversaires. Le premier instrument est né.</p>
+            <br />
+            <p>En 2001, quatre millions d'années plus tard, un vaisseau spatial évolue en orbite lunaire au rythme langoureux du "Beau Danube Bleu". A son bord, le Dr. Heywood Floyd enquête secrètement sur la découverte d'un monolithe noir qui émet d'étranges
+                signaux vers Jupiter.</p>
+            <br />
+            <p>Dix-huit mois plus tard, les astronautes David Bowman et Frank Poole font route vers Jupiter à bord du Discovery. Les deux hommes vaquent sereinement à leurs tâches quotidiennes sous le contrôle de HAL 9000, un ordinateur exceptionnel doué
+                d'intelligence et de parole. Cependant, HAL, sans doute plus humain que ses maîtres, commence à donner des signes d'inquiétude : à quoi rime cette mission et que risque-t-on de découvrir sur Jupiter ?</p>
+        </div>
+    </article>
+
+    <article class="film-modal mfp-hide" id="film2">
+        <a class="close-icon" href="#close"></a>
+        <h1 class="text-center">Drive</h1>
+        <h2 class="text-center"><i>Séance : Le 5 août 2020 - 21h00</i></h2>
+        <div class="film-modal-details">
+            <img src="images/films/mini_film_drive.jpg" alt="Drive">
+            <div class="film-modal-subdetails">
+                <ul>
+                    <li>Date de sortie : <span>5 octobre 2011</span></li>
+                    <li>Durée : <span>1h40m</span></li>
+                    <li>De : <span>Nicolas Winding Refn</span></li>
+                    <li>Avec : <span>Ryan Gosling, Carey Mulligan, Bryan Cranston, ...</span></li>
+                    <li>Genre : <span>Action, Thriller</span></li>
+                    <li class="mx-50">
+                        <p><i>L'accès aux projections est gratuit et ouvert à tous. Vous pouvez cependant réserver vos
+                                places pour nous aider dans l'organisation des séances.</i></p>
+                    </li>
+                </ul>
+                <a href="#" class="film-modal-resa">RÉSERVER MA PLACE</a>
+            </div>
+        </div>
+        <div class="film-modal-synopsis">
+            <h3>Synopsis</h3>
+            <p>Un jeune homme solitaire, "The Driver", conduit le jour à Hollywood pour le cinéma en tant que cascadeur et la nuit pour des truands. Ultra professionnel et peu bavard, il a son propre code de conduite. Jamais il n’a pris part aux crimes de
+                ses employeurs autrement qu’en conduisant - et au volant, il est le meilleur !</p>
+            <br />
+            <p>Shannon, le manager qui lui décroche tous ses contrats, propose à Bernie Rose, un malfrat notoire, d’investir dans un véhicule pour que son poulain puisse affronter les circuits de stock-car professionnels. Celui-ci accepte mais impose son
+                associé, Nino, dans le projet.</p>
+            <br />
+            <p>C’est alors que la route du pilote croise celle d’Irene et de son jeune fils. Pour la première fois de sa vie, il n’est plus seul.</p>
+            <br />
+            <p>Lorsque le mari d’Irene sort de prison et se retrouve enrôlé de force dans un braquage pour s’acquitter d’une dette, il décide pourtant de lui venir en aide. L’expédition tourne mal…</p>
+            <br />
+            <p>Doublé par ses commanditaires, et obsédé par les risques qui pèsent sur Irene, il n’a dès lors pas d’autre alternative que de les traquer un à un…</p>
+        </div>
+    </article>
+
+    <article class="film-modal mfp-hide" id="film3">
+        <a class="close-icon" href="#close"></a>
+        <h1 class="text-center">Sherlock Junior</h1>
+        <h2 class="text-center"><i>Séance : Le 5 août 2020 - 23h00</i></h2>
+        <div class="film-modal-details">
+            <img src="images/films/mini_film_sherlockjr.jpg" alt="Sherlock Junior">
+            <div class="film-modal-subdetails">
+                <ul>
+                    <li>Date de sortie : <span>28 octobre 1924</span></li>
+                    <li>Durée : <span>0h45m</span></li>
+                    <li>De : <span>Buster Keaton</span></li>
+                    <li>Avec : <span>Buster Keaton, Kathryn McGaire, Joe Keaton, ...</span></li>
+                    <li>Genre : <span>Comédie</span></li>
+                    <li class="mx-50">
+                        <p><i>L'accès aux projections est gratuit et ouvert à tous. Vous pouvez cependant réserver vos
+                                places pour nous aider dans l'organisation des séances.</i></p>
+                    </li>
+                </ul>
+                <a href="#" class="film-modal-resa">RÉSERVER MA PLACE</a>
+            </div>
+        </div>
+        <div class="film-modal-synopsis">
+            <h3>Synopsis</h3>
+            <p>Projectionniste dans un modeste cinéma, amoureux de la fille de son patron, un homme rêve de devenir un grand détective. Un jour, tandis qu'il rend visite à la demoiselle de ses pensées pour lui offrir une bague, son rival dérobe la montre
+                du père, la place chez un prêteur sur gages puis glisse le billet dans la poche du pauvre amoureux. Celui-ci se met à jouer les détectives amateurs. Confondu, il est chassé de la maison...</p>
+        </div>
+    </article>
+
+    <article class="film-modal mfp-hide" id="film4">
+        <a class="close-icon" href="#close"></a>
+        <h1 class="text-center">Joker</h1>
+        <h2 class="text-center"><i>Séance : Le 6 août 2020 - 18h00</i></h2>
+        <div class="film-modal-details">
+            <img src="images/films/mini_film_joker.jpg" alt="Joker">
+            <div class="film-modal-subdetails">
+                <ul>
+                    <li>Date de sortie : <span>9 octobre 2019</span></li>
+                    <li>Durée : <span>2h02m</span></li>
+                    <li>De : <span>Todd Phillips</span></li>
+                    <li>Avec : <span>Joaquin Phoenix, Robert De Niro, Zazie Beetz, ...</span></li>
+                    <li>Genre : <span>Drame</span></li>
+                    <li class="mx-50">
+                        <p><i>L'accès aux projections est gratuit et ouvert à tous. Vous pouvez cependant réserver vos
+                                places pour nous aider dans l'organisation des séances.</i></p>
+                    </li>
+                </ul>
+                <a href="#" class="film-modal-resa">RÉSERVER MA PLACE</a>
+            </div>
+        </div>
+        <div class="film-modal-synopsis">
+            <h3>Synopsis</h3>
+            <p>Le film, qui relate une histoire originale inédite sur grand écran, se focalise sur la figure emblématique de l’ennemi juré de Batman. Il brosse le portrait d’Arthur Fleck, un homme sans concession méprisé par la société. </p>
+        </div>
+    </article>
+
+    <article class="film-modal mfp-hide" id="film5">
+        <a class="close-icon" href="#close"></a>
+        <h1 class="text-center">Dogville</h1>
+        <h2 class="text-center"><i>Séance : Le 6 août 2020 - 20h30</i></h2>
+        <div class="film-modal-details">
+            <img src="images/films/mini_film_dogville.jpg" alt="Dogville">
+            <div class="film-modal-subdetails">
+                <ul>
+                    <li>Date de sortie : <span>21 mai 2003</span></li>
+                    <li>Durée : <span>2h57m</span></li>
+                    <li>De : <span>Lars von Trier</span></li>
+                    <li>Avec : <span>Nicole Kidman, Paul Bettany, Patricia Clarkson, ...</span></li>
+                    <li>Genre : <span>Thriller, Drame</span></li>
+                    <li class="mx-50">
+                        <p><i>L'accès aux projections est gratuit et ouvert à tous. Vous pouvez cependant réserver vos
+                                places pour nous aider dans l'organisation des séances.</i></p>
+                    </li>
+                </ul>
+                <a href="#" class="film-modal-resa">RÉSERVER MA PLACE</a>
+            </div>
+        </div>
+        <div class="film-modal-synopsis">
+            <h3>Synopsis</h3>
+            <p>Dans les années trente, des coups de feu retentissent un soir dans Dogville, une petite ville des Rocheuses. Grace, une belle femme terrifiée, monte en courant un chemin de montagne où elle fait la rencontre de Tom, un jeune habitant de la
+                bourgade. Elle lui explique qu'elle est traquée par des gangsters et que sa vie est en danger. Encouragée par Tom, la population locale consent à la cacher, en échange de quoi Grace accepte de travailler pour elle.</p>
+            <br />
+            <p>Lorsqu'un avis de recherche est lancé contre la jeune femme, les habitants de Dogville s'estiment en droit d'exiger une compensation, vu le risque qu'ils courent à l'abriter. Mais la pauvre Grace garde en elle un secret fatal qui leur fera
+                regretter leur geste...</p>
+        </div>
+    </article>
+
+    <article class="film-modal mfp-hide" id="film6">
+        <a class="close-icon" href="#close"></a>
+        <h1 class="text-center">Vol au-dessus d'un nid de coucou</h1>
+        <h2 class="text-center"><i>Séance : Le 7 août 2020 - 18h00</i></h2>
+        <div class="film-modal-details">
+            <img src="images/films/mini_film_niddecoucou.jpg" alt="Vol au-dessu d'un nid de coucou">
+            <div class="film-modal-subdetails">
+                <ul>
+                    <li>Date de sortie : <span>1 mars 1976</span></li>
+                    <li>Durée : <span>2h09m</span></li>
+                    <li>De : <span>Milos Forman</span></li>
+                    <li>Avec : <span>Michael Berryman, Dean R. Brooks, Jack Nicholson, ...</span></li>
+                    <li>Genre : <span>Drame</span></li>
+                    <li class="mx-50">
+                        <p><i>L'accès aux projections est gratuit et ouvert à tous. Vous pouvez cependant réserver vos
+                                places pour nous aider dans l'organisation des séances.</i></p>
+                    </li>
+                </ul>
+                <a href="#" class="film-modal-resa">RÉSERVER MA PLACE</a>
+            </div>
+        </div>
+        <div class="film-modal-synopsis">
+            <h3>Synopsis</h3>
+            <p>Rebellion dans un hôpital psychiatrique à l'instigation d'un malade qui se révolte contre la dureté d'une infirmière.
+            </p>
+        </div>
+    </article>
+
+    <article class="film-modal mfp-hide" id="film7">
+        <a class="close-icon" href="#close"></a>
+        <h1 class="text-center">Delicatessen</h1>
+        <h2 class="text-center"><i>Séance : Le 7 août 2020 - 20h30</i></h2>
+        <div class="film-modal-details">
+            <img src="images/films/mini_film_delicatessen.jpg" alt="Delicatessen">
+            <div class="film-modal-subdetails">
+                <ul>
+                    <li>Date de sortie : <span>17 avril 1991</span></li>
+                    <li>Durée : <span>1h37m</span></li>
+                    <li>De : <span>Jean-Pierre Jeunet, Marc Caro</span></li>
+                    <li>Avec : <span>Dominique Pinon, Karin Viard, Ticky Holgado, ...</span></li>
+                    <li>Genre : <span>Comédie, Drame, Epouvante-horreur, Fantastique</span></li>
+                    <li class="mx-50">
+                        <p><i>L'accès aux projections est gratuit et ouvert à tous. Vous pouvez cependant réserver vos
+                                places pour nous aider dans l'organisation des séances.</i></p>
+                    </li>
+                </ul>
+                <a href="#" class="film-modal-resa">RÉSERVER MA PLACE</a>
+            </div>
+        </div>
+        <div class="film-modal-synopsis">
+            <h3>Synopsis</h3>
+            <p>La vie des étranges habitants d'un immeuble de banlieue qui se dresse dans un immense terrain vague et qui tous vont se fournir chez le boucher-charcutier, à l'enseigne "Delicatessen".</p>
+        </div>
+    </article>
+
+    <article class="film-modal mfp-hide" id="film8">
+        <a class="close-icon" href="#close"></a>
+        <h1 class="text-center">La haine</h1>
+        <h2 class="text-center"><i>Séance : Le 7 août 2020 - 22h30</i></h2>
+        <div class="film-modal-details">
+            <img src="images/films/mini_film_lahaine.jpg" alt="La Haine">
+            <div class="film-modal-subdetails">
+                <ul>
+                    <li>Date de sortie : <span>31 mai 1995</span></li>
+                    <li>Durée : <span>1h35m</span></li>
+                    <li>De : <span>Mathieu Kassovitz</span></li>
+                    <li>Avec : <span>Vincent Cassel, Hubert Koundé, Saïd Taghmaoui, ...</span></li>
+                    <li>Genre : <span>Drame</span></li>
+                    <li class="mx-50">
+                        <p><i>L'accès aux projections est gratuit et ouvert à tous. Vous pouvez cependant réserver vos
+                                places pour nous aider dans l'organisation des séances.</i></p>
+                    </li>
+                </ul>
+                <a href="#" class="film-modal-resa">RÉSERVER MA PLACE</a>
+            </div>
+        </div>
+        <div class="film-modal-synopsis">
+            <h3>Synopsis</h3>
+            <p>Trois copains d'une banlieue ordinaire traînent leur ennui et leur jeunesse qui se perd. Ils vont vivre la journée la plus importante de leur vie après une nuit d'émeutes provoquée par le passage à tabac d'Abdel Ichah par un inspecteur de
+                police lors d'un interrogatoire.</p>
+        </div>
+    </article>
+
+    <article class="film-modal mfp-hide" id="film9">
+        <a class="close-icon" href="#close"></a>
+        <h1 class="text-center">La vie est belle</h1>
+        <h2 class="text-center"><i>Séance : Le 8 août 2020 - 18h00</i></h2>
+        <div class="film-modal-details">
+            <img src="images/films/mini_film_lavieestbelle.jpg" alt="La vie est belle">
+            <div class="film-modal-subdetails">
+                <ul>
+                    <li>Date de sortie : <span>10 décembre 1947</span></li>
+                    <li>Durée : <span>2h09m</span></li>
+                    <li>De : <span>Frank Capra</span></li>
+                    <li>Avec : <span>James Stewart, Donna Reed, Lionel Barrymore, ...</span></li>
+                    <li>Genre : <span>Comédie dramatique, Fantastique</span></li>
+                    <li class="mx-50">
+                        <p><i>L'accès aux projections est gratuit et ouvert à tous. Vous pouvez cependant réserver vos
+                                places pour nous aider dans l'organisation des séances.</i></p>
+                    </li>
+                </ul>
+                <a href="#" class="film-modal-resa">RÉSERVER MA PLACE</a>
+            </div>
+        </div>
+        <div class="film-modal-synopsis">
+            <h3>Synopsis</h3>
+            <p>Le décès de son père oblige un homme à reprendre l'entreprise familiale de prêts à la construction, qui permet aux plus déshérités de se loger. Il entre en conflit avec l'homme le plus riche de la ville, qui tente de ruiner ses efforts. Au
+                moment où il approche de la victoire, il égare les 8 000 dollars qu'il devait déposer en banque. Le soir de Noël, désespéré, il songe au suicide. C'est alors que le Ciel dépêche à ses côtés un ange de seconde classe, qui pour gagner ses
+                ailes devra l'aider à sortir de cette mauvaise passe...</p>
+        </div>
+    </article>
+
+    <article class="film-modal mfp-hide" id="film10">
+        <a class="close-icon" href="#close"></a>
+        <h1 class="text-center">Brazil</h1>
+        <h2 class="text-center"><i>Séance : Le 8 août 2020 - 20h30</i></h2>
+        <div class="film-modal-details">
+            <img src="images/films/mini_film_brazil.jpg" alt="Brazil">
+            <div class="film-modal-subdetails">
+                <ul>
+                    <li>Date de sortie : <span>20 février 1985</span></li>
+                    <li>Durée : <span>2h12m</span></li>
+                    <li>De : <span>Terry Gilliam</span></li>
+                    <li>Avec : <span>Jonathan Pryce, Robert De Niro, Kim Greist, ...</span></li>
+                    <li>Genre : <span>Science fiction, Drame</span></li>
+                    <li class="mx-50">
+                        <p><i>L'accès aux projections est gratuit et ouvert à tous. Vous pouvez cependant réserver vos
+                                places pour nous aider dans l'organisation des séances.</i></p>
+                    </li>
+                </ul>
+                <a href="#" class="film-modal-resa">RÉSERVER MA PLACE</a>
+            </div>
+        </div>
+        <div class="film-modal-synopsis">
+            <h3>Synopsis</h3>
+            <p>Sam Lowry, fonctionnaire modèle d'une mégapole étrange, à la fois d'hier, beaucoup d'aujourd'hui et tout à fait de demain, a des problèmes avec sa maman et avec l'Etat, tout puissant. Pour couronner le tout, des songes bizarres l'entraînent
+                chaque nuit sur les ailes d'Icare, à la recherche d'une jeune femme blonde, évanescente, inaccessible. Chaque fois qu'il est sur le point de l'atteindre, leurs trajectoires se séparent et le songe s'interrompt cruellement.</p>
+            <br />
+            <p>Pourtant une nuit, la belle Jill Layton entre dans sa vie... Par le biais d'une erreur dans la machinerie fantastique qui préside à l'organisation de la vie quotidienne des citoyens de cette ville étrange, l'Ordinateur suprême a désigné le
+                brave Buttle à la place de l'escroc Tuttle, activement recherché. Après le décès fâcheux du pauvre Buttle, Saw Lowry, jusque là employé rampant, est promu au Service des Recherches, très brigué... pour dédommager la veuve du défunt. La
+                belle Jill habite au dessus de l'infortunée famille... En fait de recherches, Sam va passer son temps à retrouver la femme de ses rêves.
+            </p>
+            <br />
+            <p>Sa maman, elle, a des soucis beaucoup plus terre-à-terre. Elle surveille fébrilement les résultats des multiples interventions de chirurgie plastique réalisées par une sorte de Grand-Maître d'une secte étrange dans cet univers incroyable.
+                Et son cher garçon suit attentivement les évolutions du visage et du corps de sa mère, ainsi que celles, nettement plus catastrophiques, de sa tante, soumise aux mêmes supplices vécus avec délice, comme une règle de vie impérative là-bas
+                : rester jeune.</p>
+            <br />
+            <p>Tout cela dans un univers de tuyaux, de pompes géantes, une sorte de ville-poumon gigantesque d'où Sam sortira amplement vainqueur de toutes les embûches pour retrouver sa belle. Mais à quel prix...</p>
+        </div>
+    </article>
+
+    <article class="film-modal mfp-hide" id="film11">
+        <a class="close-icon" href="#close"></a>
+        <h1 class="text-center">Following</h1>
+        <h2 class="text-center"><i>Séance : Le 8 août 2020 - 23h00</i></h2>
+        <div class="film-modal-details">
+            <img src="images/films/mini_film_following.jpg" alt="Following">
+            <div class="film-modal-subdetails">
+                <ul>
+                    <li>Date de sortie : <span>1 décembre 1999</span></li>
+                    <li>Durée : <span>1h10m</span></li>
+                    <li>De : <span>Christopher Nolan</span></li>
+                    <li>Avec : <span>Jeremy Theobald, Alex Haw, Lucy Russell, ...</span></li>
+                    <li>Genre : <span>Thriller, Judiciaire, Drame</span></li>
+                    <li class="mx-50">
+                        <p><i>L'accès aux projections est gratuit et ouvert à tous. Vous pouvez cependant réserver vos
+                                places pour nous aider dans l'organisation des séances.</i></p>
+                    </li>
+                </ul>
+                <a href="#" class="film-modal-resa">RÉSERVER MA PLACE</a>
+            </div>
+        </div>
+        <div class="film-modal-synopsis">
+            <h3>Synopsis</h3>
+            <p>Un romancier en herbe est poursuivi par une obsession. Il file des inconnus jusqu'au jour ou l'un deux, cambrioleur professionnel, l'entraine dans ses combines.</p>
+        </div>
+    </article>
+
+</body>
+
+</html>
